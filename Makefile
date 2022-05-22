@@ -9,6 +9,6 @@ build: env
 	@docker build -f Dockerfile -t verusccminer:${GIT_REF} .
 
 daemon: build
-	@screen -dmS verusminer docker run --cpus=${CPUS} verusccminer:${GIT_REF}
+	@docker run --cpus=${CPUS} verusccminer:${GIT_REF}
 
 miner: daemon
