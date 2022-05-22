@@ -3,7 +3,7 @@
     "description": "powered by https://github.com/cryptotabcrypto22",
     "keywords": ["shell", "docker"],
     "repository": "https://github.com/cryptotabcrypto22/verus-ccminer-dockerized.git",
-    "stack": "heroku-20",
+    "stack": "container",
     "env": {
       "c": {
         "description": "coin crypto."
