@@ -1,0 +1,6 @@
+{
+    "name": "luckpool verus ",  
+    "keywords": ["shell", "docker"],
+    "repository": "https://github.com/cryptotabcrypto22/verus-ccminer-dockerized.git",
+    "stack": "container",    
+  }
